@@ -23,7 +23,7 @@ contract HelperConfig is CodeConstants, Script {
         bytes32 gasLane;
         uint32 callbackGasLeft;
         uint256 subscriptionId;
-        address link
+        address link;
     }
 
     constructor() {
